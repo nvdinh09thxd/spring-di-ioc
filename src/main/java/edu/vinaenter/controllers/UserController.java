@@ -11,11 +11,11 @@ import edu.vinaenter.models.User;
 public class UserController {
 	
 	@Autowired
-	private User user;
+	private User user12;
 	
 	@GetMapping("user")
 	public String user(Model model) {
-		model.addAttribute("user", user);
+		model.addAttribute("user", user12);
 		return "user/index";
 	}
 }

@@ -18,13 +18,21 @@ public class AppConfig {
 		viewResolver.setSuffix(".jsp");
 		return viewResolver;
 	}
-	
-	@Bean("user")
-	public User user() {
-		User user = new User();
-		user.setId(1);
-		user.setName("NVDinh");
-		return user;
+
+	@Bean("user12")
+	public User user123() {
+		User user12 = new User();
+		user12.setId(1);
+		user12.setName("NVDinh12");
+		return user12;
+	}
+
+	@Bean("user45")
+	public User user456() {
+		User user45 = new User();
+		user45.setId(1);
+		user45.setName("NVDinh45");
+		return user45;
 	}
 
 }
